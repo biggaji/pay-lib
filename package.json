@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "name": "pay-lib",
+  "description": "A test nodejs demo payment library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biggaji/pay-lib.git"
+  },
+  "keywords": ["demo", "demo-payment-library", "payout", "payment", "pay-lib", "biggaji", "Tobi Ajibade"],
+  "author": "Tobi Ajibade <herityjohnny14@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biggaji/pay-lib/issues"
+  },
+  "homepage": "https://github.com/biggaji/pay-lib#readme"
+}
