@@ -19,9 +19,10 @@ yarn add pay-lib
 ```javascript 
 const payLib = require("pay-lib");
 ```
-#Create an array of object receipents, even if it is just a receipent
 
 ```javascript
+//Create an array of object receipents, even if it is just a receipent
+
 const receipents = [
   {
     name: "Tobi",
@@ -50,7 +51,7 @@ console.log(paymentIntents);
 
 This would return a array objects containing details of each /receipent transactions
 
-###Example response 
+### Example response 
 ```javascript
 [
   {
@@ -81,5 +82,5 @@ This would return a array objects containing details of each /receipent transact
 
 ```
 
-# Usage
+## Usage
 Live test project link coming
