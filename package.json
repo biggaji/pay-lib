@@ -17,8 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/biggaji/pay-lib.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["demo", "demo-payment-library", "payout", "payment", "pay-lib", "biggaji", "Tobi Ajibade"],
+  "author": "Tobi Ajibade <herityjohnny14@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/biggaji/pay-lib/issues"
