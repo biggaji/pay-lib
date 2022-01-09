@@ -1,22 +1,22 @@
 # pay-lib
 A test nodejs demo payment library for disbursing payouts to family or friends
 
-# Requirements
+## Requirements
 
 Node 8, 10 or higher
 
-# Installation
+## Installation
 
 Install the package with:
 
-``` 
+```javascript
 npm install --save pay-lib 
 # or 
 yarn add pay-lib  
 ```
 # Usage
 
-``` 
+```javascript 
 const payLib = require("pay-lib);
 
 #Create an array of object receipents, even if it is just a receipent
@@ -36,15 +36,17 @@ const receipents = [
   }
 ];
 
-# Now pass the receipents array to the send method of the paylib disburse property
+//Now pass the receipents array to the send method of the paylib disburse property
 
 let paymentIntents = payLib.disburse.send(receipents);
 
-# You can choose to display the response anyhow, here i will log it to the console
+//You can choose to display the response anyhow, here i will log it to the console
 
-console.log(paymentIntents); //Would return a array objects containing details of each receipent transactions
+console.log(paymentIntents);
 
-#Example response 
+//Would return a array objects containing details of each /receipent transactions
+
+//Example response 
 
 [
   {
